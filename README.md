@@ -10,5 +10,6 @@
    I checked groups username — they weren’t in the right group.     
 
                  usermod -aG <group> username,
-                 chmod +x, or chgrp.
+                 chmod +x script.sh
+                 chgrp groupname script.sh
         
